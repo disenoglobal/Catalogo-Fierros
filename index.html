@@ -29,7 +29,7 @@
 	</div>
 </div>
 
-<!-- Thumbnails -->
+<!-- Thumbnails eliminados
 <div class="thumbnails">
 	<div>
 		<ul>
@@ -68,7 +68,7 @@
 			</li>
 		<ul>
 	<div>	
-</div>
+</div> -->
 </div>
 
 <script type="text/javascript">
@@ -120,7 +120,7 @@ function loadApp() {
 
 			// The number of pages
 
-			pages: 12,
+			pages: 26,
 
 			// Events
 
@@ -159,7 +159,7 @@ function loadApp() {
 					$(this).turn('center');
 
 					if (page==1) { 
-						$(this).turn('peel', 'br');
+						$(this).turn('peel', 'tr');
 					}
 
 				},
@@ -221,7 +221,7 @@ function loadApp() {
 					escTip = true;
 
 					$('<div />', {'class': 'exit-message'}).
-						html('<div>Press ESC to exit</div>').
+						html('<div>Presione ESC para salir</div>').
 							appendTo($('body')).
 							delay(2000).
 							animate({opacity:0}, 500, function() {
@@ -457,9 +457,9 @@ function loadApp() {
 
 yepnope({
 	test : Modernizr.csstransforms,
-	yep: ['../../lib/turn.js'],
-	nope: ['../../lib/turn.html4.min.js'],
-	both: ['../../lib/zoom.min.js', 'js/magazine.js', 'css/magazine.css'],
+	yep: ['lib/turn.js'],
+	nope: ['lib/turn.html4.min.js'],
+	both: ['lib/zoom.min.js', 'js/magazine.js', 'css/magazine.css'],
 	complete: loadApp
 });
 

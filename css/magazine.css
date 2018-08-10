@@ -1,6 +1,6 @@
 body{
 	overflow:hidden;
-	background-color:#fcfcfc;
+	background-color:#434343;
 	margin:0;
 	padding:0;
 }
@@ -10,7 +10,7 @@ body{
 	top:50%;
 	left:50%;
 	width:922px;
-	height:600px;
+	height:800px;
 	margin:auto;
 }
 
@@ -122,7 +122,7 @@ body{
 }
 
 .magazine-viewport .loader{
-	background-image:url(../pics/loader.gif);
+	background-image:url(/pics/loader.gif);
 	width:22px;
 	height:22px;
 	position:absolute;
@@ -130,6 +130,7 @@ body{
 	left:219px;
 }
 
+/* Se eliminó efecto de sombra
 .magazine-viewport .shadow{
 	-webkit-transition: -webkit-box-shadow 0.5s;
 	-moz-transition: -moz-box-shadow 0.5s;
@@ -141,7 +142,7 @@ body{
 	-o-box-shadow:0 0 20px #ccc;
 	-ms-box-shadow:0 0 20px #ccc;
 	box-shadow:0 0 20px #ccc;
-}
+} */
 
 .magazine-viewport .next-button,
 .magazine-viewport .previous-button{
@@ -218,7 +219,7 @@ body{
 .thumbnails > div{
 	width:1050px;
 	height:100px;
-	margin:20px auto;
+	margin:5px auto;
 }
 
 .thumbnails ul{
